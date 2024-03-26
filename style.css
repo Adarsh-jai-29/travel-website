@@ -106,7 +106,7 @@ text-align: center;
 .box{
 
   margin: 4em 11em  ;
-  height: 20rem;
+  height: 22rem;
   padding-top: 1rem;
 
 }
@@ -143,18 +143,6 @@ width: 50%;
  font-size: 1.1rem;
 
 }
-.text-1 a{
-
-display: inline-block;
-color : red;   
-border: 3px solid red;
-border-radius: 15px;
-padding: 6px;
-margin-top: 13px;
-
-}
-
-
 
 .image-2{
   float : right ;
@@ -183,14 +171,15 @@ width: 50%;
  
 
 }
-.text-2 a{
+ .link{
 
     display: inline-block;
      color : red;   
      border: 3px solid red;
      border-radius: 15px;
-     padding: 8px;
+     padding: 7px;
      margin-top: 13px;
+     margin-left: 10px;
     
     }
 
@@ -230,9 +219,9 @@ width: 50%;
 color: #d3cfcf;
 display: inline-block;
 width: 33.333333%;
-height : 14rem;
+height : 15rem;
 /* border: 5px solid rebeccapurple; */
-padding: 2rem;
+padding: 1.8rem;
 
 
 }
@@ -306,7 +295,7 @@ padding: 2rem;
  
 }
 
-@media ( max-width:990px) {
+@media ( max-width:900px) {
 
 html{
   font-size: 16px;
@@ -323,15 +312,10 @@ html{
   margin-top: 0px;
 
 }
-
-.box{
-  /* padding-top: 2px; */
-  margin: 4em 1em  ;
  
-
- }
  .text-1{
   padding: 1em;
+  float: none;
  }
 
 .text-2 p{
@@ -345,24 +329,63 @@ html{
 
 }
 
-.box{
+.box-2{
   /* padding-top: 2px; */
-  margin: 4em 1em  ;
+  margin: 14em 1.2em  ;
+ height : 15rem;
+
+ }
  
+.box-1{
+  /* padding-top: 2px; */
+  margin: 4em 1.2em  ;
+ height : 15rem;
 
  }
- .text-2{
-  padding: 1em;
- }
+ 
+.showcase{
+  /* border: 5px solid red; */
+    margin-bottom: 9rem;
+  
+  }
+ 
+ .image-2{
+  float : none ;
+height: 90%;
+width: 100%;
+  }
+
+.image-1{
+  float : none ;
+height: 90%;
+width: 100%;
 
 
+}
+
+.text-2{
+ padding: 1em;
+ float: none;
+width: 100%;
+
+
+}
+.text-1{
+ padding: 1em;
+ float: none;
+width: 100%;
+
+
+}
 
 
 
 .feature-wrapper{
 /* border: 7px solid #09a1ec; */
-  height: 30rem;
+  height: 39rem;
   width: 100%;
+  margin-top: 3rem;
+
  }
  
  
@@ -389,11 +412,12 @@ html{
   /* border: 5px solid rebeccapurple; */
   height: 33.33333%;
   width: 100%;
+  margin-top: 3rem;
   }
 
   .footer{
   
-    margin-top: 6rem;
+    margin-top: 23rem;
     color : white ;
      background-color:  #263238;
     
